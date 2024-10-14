@@ -1,0 +1,16 @@
+#chatbot-window {
+    z-index: 1050; /* Ensure it appears above other content */
+}
+.chat-window {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-area .about-image {
+    background-image: url(../../images/banners/about_us_banner.webp);
+    background-size: contain !important;
+}
+.our-mission-area .our-mission-image {
+    background-image: url(../../images/banners/customer_benefits_banner.webp);
+    background-size: contain !important;
+}
